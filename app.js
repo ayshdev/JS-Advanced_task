@@ -1,7 +1,9 @@
 let footer = "▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 
 // ex 1
-console.log("EXERCISE 1");
+
+function ex1 (){
+    console.log("EXERCISE 1");
 
 let email = prompt("EXERCISE 1: \nEnter your e-mail.")
 
@@ -27,10 +29,13 @@ if (email.includes("@")) {
 }
 
 console.log(footer);
+}
+
 
 
 // ex 2
-console.log("EXERCISE 2");
+function ex2(){
+    console.log("EXERCISE 2");
 
 let sentence = prompt("EXERCISE 2: \nEnter you sentence which you want to capitalize.").toLowerCase()
 let sentenceArr = sentence.split(" ")
@@ -43,7 +48,7 @@ for (var i=0; i<sentenceArr.length ; i++){
 // console.log(firstChar);
 
 let restChar = []
-for(let i=0 ; i<sentenceArr.length ; i++){
+for(let i=0 ; i<sentenceArr.length ; i++){ 
     restChar.push(sentenceArr[i].slice(1))
 }
 // console.log(restChar);
@@ -56,9 +61,12 @@ for (let i=0 ; i<sentenceArr.length ; i++) {
 
 console.log(final.join(""));
 console.log(footer);
+}
+
 
 // ex 3
-console.log("EXERCISE 3");
+function ex3(){
+    console.log("EXERCISE 3");
 
 let arr = [1, 2, 3, 3, 4, 5, 5, 6, 6, 6, 7];
 let uniqueArr = []
@@ -72,9 +80,12 @@ for (var i=0; i<arr.length ; i++){
 
 console.log(uniqueArr);
 console.log(footer);
+}
+
 
 // ex 4
-console.log("EXERCISE 4");
+function ex4(){
+    console.log("EXERCISE 4");
 
 let text = "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
 let longWords = [];
@@ -91,9 +102,11 @@ console.log("Original Text:", text);
 
 console.log("Words having five or more letters:", longWords);
 console.log(footer);
+}
 
 // ex 5
-console.log("EXERCISE 5");
+function ex5(){
+    console.log("EXERCISE 5");
 
 let animals = ["cat", "dog" , "parrot", "fish"];
 let flag = false;
@@ -112,9 +125,12 @@ if (flag) {
 }
 
 console.log(footer);
+}
+
 
 // ex 6
-console.log("EXERCISE 6");
+function ex6(){
+    console.log("EXERCISE 6");
 
 let number = [164, 435, 36, 268, 130];
 let sum = 0;
@@ -128,9 +144,12 @@ console.log(`Sum: ${sum}`);
 
 console.log(footer);
 
+}
+
 
 // ex 7
-console.log("EXERCISE 7");
+function ex7(){
+    console.log("EXERCISE 7");
 
 let num = [23, 65, 83, 43, 36, 60]
 let largestNum = num[0]
@@ -150,9 +169,12 @@ console.log(`Largest Number: ${largestNum}`);
 console.log(`Smallest Number: ${smallestNum}`);
 
 console.log(footer);
+}
+
 
 // ex 8
-console.log("EXERCISE 8");
+function ex8(){
+    console.log("EXERCISE 8");
 
 let num1 = [24, 44, 75, 72, 29, 67, 96, 23];
 let evenNum = []
@@ -170,8 +192,11 @@ console.log(`Odd Numbers: ${oddNum}`);
 
 console.log(footer);
 
+}
+
 // ex 9
-console.log("EXERCISE 9");
+function ex9(){
+   console.log("EXERCISE 9");
 
 let word = prompt("EXERCISE 9: \nEnter a word to check if it's a palindrome.");
 let reversed = "";
@@ -187,7 +212,9 @@ if (word === reversed) {
 }
 
 
-console.log(footer);
+console.log(footer); 
+}
+
 
 
 
