@@ -1,15 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS-Assignment 11</title>
+    <style>
+        .box {
+            /* border: 2px solid red; */
+            width: 50%;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .boxes {
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            border: 2px solid rgb(0, 0, 0);
+            width: 150px;
+            height: 50px;
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+        }
+
+        button:hover {
+            font-weight: bolder;
+            background-color: rgba(0, 0, 0);
+            color: white;
+            box-shadow: 2px 2px 20px rgb(56, 54, 56);
+            transition: .3s all ease;
+        }
+    </style>
 </head>
+
 <body>
     <center>
         <h1>JS-Assignment 11</h1>
-        <h2>Advanced Tasks from Given Topics(Loops, If, Array, String)</h2>
+        <h2>Advanced Tasks from Given Topics (Loops, If, Array, String)</h2>
+        <div class="box">
+            <div class="boxes">
+                <button onclick="ex1()">Task 1</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex2()">Task 2</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex3()">Task 3</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex4()">Task 4</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex5()">Task 5</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex6()">Task 6</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex7()">Task 7</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex8()">Task 8</button>
+            </div>
+            <div class="boxes">
+                <button onclick="ex9()">Task 9</button>
+            </div>
+        </div>
     </center>
     <script src="app.js"></script>
 </body>
+
 </html>
